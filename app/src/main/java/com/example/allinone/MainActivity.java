@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.basic.InstanceClass;
+import com.example.ndk.NdkTest;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //txtMain.setText(NdkTest.getInstance().hello());
+                txtMain.setText(NdkTest.getInstance().getString());
             }
         });
 
