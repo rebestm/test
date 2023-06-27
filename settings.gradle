@@ -1,0 +1,3 @@
+include ':moduleTest'
+include ':app'
+rootProject.name = "AllInOne"
