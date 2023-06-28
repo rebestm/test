@@ -14,8 +14,8 @@ import com.example.ndk.NdkTest;
 public class MainActivity extends AppCompatActivity {
     final static private String TAG = "MainActivity";
 
-    TextView txtMain;
-    Button buttonMain;
+    TextView txtMain=null;
+    Button buttonMain=null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
