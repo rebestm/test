@@ -32,8 +32,9 @@ public class MainActivity extends AppCompatActivity {
         buttonMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //txtMain.setText(NdkTest.getInstance().hello());
                 txtMain.setText(NdkTest.getInstance().getString());
+                // c++ > java
+                NdkTest.getInstance().callConnectAndChangeUiJNI();
             }
         });
 
